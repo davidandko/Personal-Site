@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(180, 173, 86);
+}
+.nameandphoto{
+    padding-bottom: 0.5cm;
+}
+.summary{
+    display: block;
+    text-align: justify;
+
+}
+.interests{
+    color:white;
+}
+#list{
+    font-weight: 500;
+}
