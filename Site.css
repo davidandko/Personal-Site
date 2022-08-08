@@ -1,6 +1,13 @@
 /*your CSS code here*/
 body{
     background-image: linear-gradient(to right,rgb(173, 165, 165),rgb(36, 36, 36));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    border: 5px solid rgb(158, 158, 158);
+    margin-top: 16px;
+    border-radius: 50% 50% 50% 50%;
+    
 }
 .icon{
     width: 25px;
@@ -14,18 +21,9 @@ body{
     color:white;
     text-transform: uppercase;
     font-family: serif;
-    
-}
-img{
-    border: 5px solid rgb(158, 158, 158);
-    margin-top: 16px;
-    border-radius: 50% 50% 50% 50%;
-    
 }
 .summary{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.summary{
     color:white;
     padding-bottom: 1cm;
 }
@@ -42,10 +40,6 @@ img{
     padding-bottom: 8px;
     margin-bottom: 16px;
     
-}
-body{
-    color:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contactinfo{
     margin-bottom: 16px;
