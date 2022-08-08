@@ -1,17 +1,66 @@
-body{
-    background-color:rgb(180, 173, 86);
-}
-.nameandphoto{
-    padding-bottom: 0.5cm;
+
+.heading{
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+    text-transform: uppercase;
+    font-family: serif;
+    
 }
 .summary{
-    display: block;
-    text-align: justify;
-
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.interests{
+.summary{
     color:white;
+    padding-bottom: 1cm;
 }
-#list{
-    font-weight: 500;
+.prof{
+    font-size: 20px;
+    color:rgba(207, 145, 87, 0.884);
+    padding-bottom: 0.5cm;
+    font-weight: bold;
+}
+.intro
+{
+    background-color: rgb(197, 202, 194);
+    padding-left: 16px;
+    
+}
+body{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactinfo{
+    font-size: medium;
+    background-color:rgba(255, 123, 0, 0.884);
+}
+.subheading{
+    font-family: serif;
+    background-color:rgb(197, 202, 194) ;
+    font-size: medium;
+    font-weight: bold;
+    color:rgba(255, 123, 0, 0.884);
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+.skills{
+    font-family: serif;
+    background-color:rgba(255, 123, 0, 0.884)
+}
+.explist{
+    background-color:rgba(255, 123, 0, 0.884)
+}
+.date{
+    font-weight: bold;
+}
+.social{
+    font-family: serif;
+    padding-left: 16px;
+}
+.infoname{
+     color:rgba(255, 123, 0, 0.884);
+     background-color:rgb(197, 202, 194) ;
+}
+.infodiv{
+   
 }
