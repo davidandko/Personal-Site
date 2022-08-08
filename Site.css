@@ -1,10 +1,25 @@
-
+/*your CSS code here*/
+body{
+    background-image: linear-gradient(to right,rgb(173, 165, 165),rgb(36, 36, 36));
+}
+.icon{
+    width: 25px;
+    padding-left: 5px;
+    float:left;
+    color:rgb(173, 165, 165);
+}
 .heading{
     font-size: 30px;
     font-weight: bolder;
     color:white;
     text-transform: uppercase;
     font-family: serif;
+    
+}
+img{
+    border: 5px solid rgb(158, 158, 158);
+    margin-top: 16px;
+    border-radius: 50% 50% 50% 50%;
     
 }
 .summary{
@@ -16,14 +31,16 @@
 }
 .prof{
     font-size: 20px;
-    color:rgba(207, 145, 87, 0.884);
+    color:rgba(95, 161, 248, 0.884)
     padding-bottom: 0.5cm;
     font-weight: bold;
 }
 .intro
 {
-    background-color: rgb(197, 202, 194);
+    background-color: rgb(36, 36, 36);
     padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
     
 }
 body{
@@ -31,36 +48,77 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contactinfo{
+    margin-bottom: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     font-size: medium;
-    background-color:rgba(255, 123, 0, 0.884);
+    
+    background-color:rgb(36, 36, 36);
 }
 .subheading{
     font-family: serif;
     background-color:rgb(197, 202, 194) ;
     font-size: medium;
     font-weight: bold;
-    color:rgba(255, 123, 0, 0.884);
+    color:rgb(36, 36, 36);
     text-transform: uppercase;
     padding-left: 16px;
 }
 .skills{
     font-family: serif;
-    background-color:rgba(255, 123, 0, 0.884)
+    background-color:rgb(36, 36, 36);
+}
+.skills ul li{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    align-items: center;
+    margin-left: -10px;
+}
+.skills ul li .skill_prog{
+    width: 100px;
+    height: 16px;
+    position: relative;
+    align-items: center;
+
+}
+.skills ul li .skill_prog span{
+    position: absolute;
+    height: 8px;
+    background: rgb(197, 202, 194);
+    padding-right: 100px;
 }
 .explist{
-    background-color:rgba(255, 123, 0, 0.884)
+    background-color:rgb(36, 36, 36);
 }
 .date{
     font-weight: bold;
 }
 .social{
+    color:white;
     font-family: serif;
     padding-left: 16px;
 }
 .infoname{
-     color:rgba(255, 123, 0, 0.884);
-     background-color:rgb(197, 202, 194) ;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(197, 202, 194);
+    margin-bottom: 16px;
+    font-family: serif;
+    padding-left: 16px;
 }
-.infodiv{
-   
+.skill_name{
+    width: 20px;
+}
+.skill_per{
+    margin-right: 10px;
+}
+.iconsoc{
+    color: white;
+    text-decoration: none;
+    float: left;
+    width:auto;
+
 }
